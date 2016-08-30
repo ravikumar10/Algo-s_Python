@@ -7,6 +7,6 @@ Completed:
   Dynamic Programming:
   
       Coin Change
-      kadane Algorithm  (Max Value Contiguous Ssubsequence)
+      kadane Algorithm  (Max Value Contiguous Subsequence)
       Longest Common Subsequence    
   
