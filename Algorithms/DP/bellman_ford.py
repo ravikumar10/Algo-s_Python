@@ -1,8 +1,10 @@
-#!/usr/bin/python
 """
 Problem : The Bellman ford algorithm for calculating single source shortest paths
 				- CLRS style
 """
+import math
+
+print(dir(math))
 
 graph = { 
     's' : {'t':6, 'y':7},
@@ -15,7 +17,7 @@ graph = {
 INF = float('inf')
 
 dist={}
-
+dist={}
 predecessor ={}
 
 def initialize_single_source(graph,s):
@@ -47,5 +49,5 @@ def get_distances(graph,s):
 	return "Graph Contains a negative cycle"
 
 if __name__=="__main__":
-	print get_distances(graph,'s')
+	print (get_distances(graph,'s'))
 
