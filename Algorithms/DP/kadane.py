@@ -16,3 +16,5 @@ if __name__=="__main__":
   y = [-2,1,-3,4, -1, 2, 1, -5, 4]
   z = [-1, 3, -5, 4, 6, -1, 2, -7, 13, -3]
   print (map(max_value_contiguous_subsequence, [x, y, z]))
+
+  	
